@@ -2,11 +2,12 @@
 
 pipeline {
     agent any
+
     stages {
         stage('Run Node Pipeline') {
             steps {
                 nodePipeline(
-                    appDir: '.',  // or '.' if app files are at root
+                    appDir: '.',  // path to app directory
                     imageName: 'unknowntw/simple-node-app:latest'
                 )
             }
