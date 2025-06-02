@@ -1,0 +1,21 @@
+{
+  "name": "sample-node.js-app-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnknowingTW/Sample-Node.js-app-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnknowingTW/Sample-Node.js-app-repo/issues"
+  },
+  "homepage": "https://github.com/UnknowingTW/Sample-Node.js-app-repo#readme"
+}
